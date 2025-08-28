@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#f4f5f7] h-screen flex flex-col justify-center items-center">
+ <div class="w-[300px] h-[130px] bg-[url('assests/bg.png')] bg-cover flex justify-center items-center">
+    <img src="assests/Group.png" alt="">
+ </div>
+    <form class="rounded-3xl p-5 bg-white shadow w-[350px]">
+        <div class="mt-5">
+            <label for="name" class="block font-medium">Mobile Number</label>
+            <input id="mobile-number" type="text" placeholder="Enter your Mobile No." class="input input-bordered mt-3 w-full rounded-3xl" />
+        </div>
+
+        <div class="mt-5">
+            <label for="pin" class="block font-semibold">4 Digit Pin</label>
+            <input id="pin-number" type="password" maxlength="4" placeholder="Enter 4 digit pin"
+                class="input input-bordered mt-3 w-full rounded-3xl" />
+        </div>
+
+        <button id="Add-money" type="button" class="btn btn-primary w-full rounded-3xl mt-5">Add Money</button>
+    </form>
+ <script src="node.js"></script>
+</body>
+
+</html>

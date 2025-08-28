@@ -1,4 +1,4 @@
-document.getElementById("button_clicked").addEventListener('click',function(){
+document.getElementById("Add-money").addEventListener('click',function(){
     const number = 12345678910;
     const pin = 1234;
     const matchTheNumber = document.getElementById("mobile-number").value;
@@ -6,7 +6,7 @@ document.getElementById("button_clicked").addEventListener('click',function(){
     const num = parseInt(matchTheNumber);
     const code = parseInt(matchThePinNumber);
     if(num==number && code==pin){
-       window.location.href="/home.html";
+       window.location.href="./home.html";
     } 
     else{
         console.log("Invaild Credential");

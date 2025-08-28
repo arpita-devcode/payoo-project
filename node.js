@@ -6,7 +6,7 @@ document.getElementById("button_clicked").addEventListener('click',function(){
     const num = parseInt(matchTheNumber);
     const code = parseInt(matchThePinNumber);
     if(num==number && code==pin){
-       window.location.href="./home.html";
+       window.location.href="/home.html";
     } 
     else{
         console.log("Invaild Credential");
